@@ -19,3 +19,5 @@ console.log(BigInt(2)) // BigInt is DT for Big Integers
 // Above Data types are called primitive data types which are pre defined.
 
 // We have another Data type as well called Object which we will learn later on.
+
+// To know type of data, we can simply check by console.log(typeof "akshay"/variable)
