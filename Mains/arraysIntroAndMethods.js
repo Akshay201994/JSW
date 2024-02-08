@@ -135,9 +135,30 @@ let heroes=["Shaktiman","Nagraj","Doga","Spiderman","Batman","Flash"]
 let updatedHeroes=heroes.splice(2,2,"Sabu");
 console.log(updatedHeroes);
 console.log(heroes);
+
+11. Spread Operator- (...arrName) Spread operator is used to basicaally merge 2 arrays in 1 array. its same as concat but easy to write.
+
+const fruits=["apple","mango","papaya","banana"];
+const veggies=["potato","tomato","onion","carrot"];
+const finalList=[...fruits, ...veggies];
+console.log(fruits);
+console.log(veggies);
+console.log(finalList);
+
+12. flat()- This method is used to Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth(within parentheis()).
+
+const arr1=[1,2,3,[4,5,6],7,[8,[9,[10,12],13,14],11]]
+arr2=arr1.flat(1) // infinity will search till first depth.
+arr3=arr1.flat(2) // infinity will search till second depth.
+arr4=arr1.flat(Infinity) // infinity will search till last depth.
+
+console.log(arr2);
+console.log(arr3);
+console.log(arr4);
+
+array.from() --->  console.log(Array.from("Akshay")); //Will take every literal of element and will create that an individual part of an array
+array.of() --->  console.log(Array.of("Akshay")); // Will take each element and will make that a part of an array.
 */
-
-
 
 
 
