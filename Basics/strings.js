@@ -10,7 +10,7 @@ We can write our strings in single quotes('...'), double quotes("...") and back 
 
 string written within back ticks `` are known as template literals. These have special type of properties.
 
-Using back tick `` wo write our string is recommended as its cleaner when compare to other quotes.
+Using back tick `` to write our string is recommended as its cleaner when compare to other quotes.
 
 inside template liter, we can print our variable as. well by adding placeholder `${variable}`.
 

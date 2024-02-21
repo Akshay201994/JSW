@@ -36,4 +36,14 @@ let str='Akshay';
 let b=Boolean(str);
 console.log(typeof b,b); // Here we can see boolean value is True when we are adding any value in our string.
 
+
+let a='123';
+let b=Number(a);
+console.log(typeof a);
+console.log(a,b);
+console.log(typeof b);
+let c=String(b);
+console.log(c);
+console.log(typeof c);
+
 */

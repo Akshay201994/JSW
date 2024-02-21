@@ -14,7 +14,7 @@ console.log(undefined) // Another DT is there known as undefined which basically
 
 console.log(BigInt(2)) // BigInt is DT for Big Integers
 
-// Symbol // Symbol is a DT used for special characters. Mainly used to React
+// Symbol // Symbol is a DT used for special characters. Mainly used in React
 
 // Above Data types are called primitive data types which are pre defined.
 

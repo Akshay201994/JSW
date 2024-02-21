@@ -40,7 +40,7 @@ console.log(currentTime);  // This will give time in milisecond from 1/1/1970, w
 
 console.log(Math.floor(currentTime/1000));
 
-*/
+
 
 let newDate=new Date(1994,4,20,20);
 let birthMonth=newDate.getMonth();
@@ -53,4 +53,14 @@ let birthDay=newDate.getDay();
 let month=["January","February","March","April","May","June","July","August","September","October","November","December"];
 let day=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 console.log(`I was born on ${newDate.getDate()}th of ${month[birthMonth]} on ${day[birthDay]} at ${newDate.getHours()}Hrs.`);
-console.log(`I was born on ${newDate.toLocaleString()}`);
+console.log(`I was born on ${newDate.toLocaleString()}`); 
+
+// Print your birth month where month and day should be by their names.
+
+let myBirthDay=new Date(1994,4,20,20,0)
+let months=['January','February','March','April','May','June','July','August','September','October','November','December']
+let days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+//console.log(`I was born on ${myBirthDay.toLocaleString()}`);
+console.log(`I was born on ${myBirthDay.getDate()}th of ${months[myBirthDay.getMonth()]} on ${days[myBirthDay.getDay()]} at ${myBirthDay.getTimezoneOffset()}`);
+
+*/

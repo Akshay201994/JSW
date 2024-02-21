@@ -3,7 +3,7 @@
 2. Heap Memory
 
 1. Stack Memory is a type of memory where if we define a variable and assign it some value. Later we try to make some update
-in our value, then we will get a copy of the variable created and canges will be made there. All Primitive Data types gets stored
+in our value, then we will get a copy of the variable created and changes will be made there. All Primitive Data types gets stored
 in Stack Memory.
 
 So here we create a variable and store a name:
@@ -54,5 +54,28 @@ updatedProfile.Name='Akshay Verma';
 console.log(updatedProfile); // Here we can see Name is updated to new name in our second created object.
 console.log(myProfile); // changes occured in original object as well as it comes under heap memory. where no matter how many
 // new objects we create but it will always make changes to original object and will take reference from original object only.
+
+
+
+let myOldProfile={
+    Name:'Akshay',
+    Age:29
+}
+//console.log(myOldProfile);
+let myNewProfile=myOldProfile;
+//console.log(myNewProfile);
+myNewProfile['Name']='Akshay Verma';
+//console.log(myNewProfile);
+//console.log(myOldProfile);
+
+// To add key/value pair to our object, we will first declare our key and then assign it a value like below.
+
+const bKey='isSingle';
+myNewProfile[bKey]=true;
+console.log(myNewProfile);
+
+// Another way is by using Spread operator.
+const myNeuProfile={...myNewProfile,'Followers':230};
+console.log(myNeuProfile);
 
 */

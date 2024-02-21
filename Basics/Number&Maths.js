@@ -69,4 +69,10 @@ let max=20;
 
 console.log(Math.floor(Math.random()*10)+min);// This will give our number between 10 and 20.
 
+
+
+let min=1;
+let max=50;
+
+console.log(Math.floor(Math.random()*10)+1);
 */

@@ -1,4 +1,4 @@
-// Basically Datatypes are of 2 types-> Primitive and Non Primitive. We can say these 2 types decides How we data is stored and can be accessed from our memory.
+// Basically Datatypes are of 2 types-> Primitive and Non Primitive. We can say these 2 types decides How data is stored and can be accessed from our memory.
 
 // Javascript is Dynamically typed language as we dont define data type while declaring variable.
 
