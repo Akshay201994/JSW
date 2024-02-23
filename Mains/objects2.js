@@ -129,4 +129,27 @@ const googleProduct={
 }
 console.log(googleProduct.hasOwnProperty('memory')); // will give true as memory key is there in our object.
 console.log(googleProduct.hasOwnProperty('age')); // will give false as age key is not there in our object.
-*/
+
+let profile=[{
+    Name:'Akshay',
+    Age:29
+},
+{
+    Name:'Rahul',
+    Age:39
+},
+{
+    Name:'Sonu',
+    Age:23
+}]
+
+console.log(profile[2].Age);
+
+const googleProduct={
+    Name:"Google Pixel 6 Pro",
+    color:"Whitesand",
+    memory:'256GB',
+    price:72000
+}
+console.log(Object.entries(googleProduct));
+console.log(googleProduct.hasOwnProperty('memory')); */

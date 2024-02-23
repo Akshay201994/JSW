@@ -82,7 +82,7 @@ myProfile['Name']="Akshay Verma";
 console.log(myProfile);  // Here we will get same value before freeze even after updating values for name and followers as freeze wont allow any chnages to occur.
 
 Now lets add a greeting function to our object.
-*/
+
 
 let avatar=Symbol(123);
 const myProfile ={
@@ -108,4 +108,20 @@ myProfile.greet=function(){
     console.log(`Hey ${this.name}. Have a Great Day ahead.`)
 }
 
-console.log(myProfile.greet());
+console.log(myProfile.greet()); 
+
+// We can add new key value to our object in below ways.
+
+let myProfile={
+    Name:"Akshay",
+    Age:29
+}
+
+
+let newKey='Contact'
+myProfile[newKey]='844xxx';
+
+let newProfile={
+    ...myProfile,Address:'dsdsd'
+}
+console.log(newProfile); */
