@@ -107,4 +107,22 @@ function arr(getArray){
  for(value of totalCartValue){
     totalValue += value
  }
- console.log(totalValue); */
+ console.log(totalValue);
+
+ const msg='test'
+let msg2=()=>{
+    console.log(msg)
+    var msg='test2'
+}
+msg2();
+
+
+
+// Here we will get error that msg is not defined as we have declared msg with const keyword after printing it.
+// so either we can use var keyword instead of const which will take this line at top, still we will get undefined.
+
+let arr=[1,2,3,4]
+//create arr empty
+arr.length=0;
+console.log(arr);
+ */
